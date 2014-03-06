@@ -1,0 +1,379 @@
+1  CAMatch  father: CBase 
+2  CRoutes
+3  CAboutUi  father: CBase 
+4  CContextContactsAppUi
+5  CActiveState  father: CBase 
+6  CAknPopupFieldText  father: CAknPopupField 
+7  CWebForm
+8  CNickForm
+9  CAppLogView  father: CAknView MEikListBoxObserver 
+10  CContextLogAppUiBase
+11  CAudioEngine  father: CBase 
+12  CContextMediaAppPostContainer
+13  CAuthorFeedView  father: CJaikuViewBase 
+14  CAutoTagArray  father: CBase MDesCArray 
+15  CAutoTagListBox  father: CCoeControl 
+16  CBBBtDeviceList  father: CBBGenericList MBBDataFactory 
+17  MPresenceMaintainer
+18  CLocaSenderImpl
+19  CLocaLogicImpl
+20  CLogGpsImpl
+21  CBBPresence
+22  CBBConnectionState  father: CBase TBBCompoundData 
+23  CConnectionIndicatorImpl
+24  CBBErrorInfo  father: CBase TBBCompoundData MErrorInfo 
+25  CBBFeedItem
+26  CPostStorageImpl
+27  CCMPost
+28  CFeedItemStorageImpl
+29  CFeedList
+30  CFeedControl
+31  CBBFetchItemList  father: CBBGenericList MBBDataFactory 
+32  CBBFetchPostRequest
+33  CBBFetchMediaRequest  father: CBase TBBCompoundData 
+34  CConvertingDownloaderImpl
+35  CFetchPostsImpl
+36  CBBGeneralHolder  father: CBase MBBData 
+37  CBBSensorEvent
+38  CBBTuple
+39  CBBLookup  father: CBase TBBCompoundData 
+40  CContextServer
+41  CLookupStorageImpl
+42  CUploadView
+43  CHttpTransfer2Impl
+44  CPresenceInfo
+45  CPresenceTextFormatter
+46  CPresenceDescriptionContainer
+47  phonebook
+48  contact
+49  CPresenceHolder
+50  CBBRecovery  father: CBase MRecovery MContextBase 
+51  CLocaRemoteEvents
+52  CLog_local
+53  CDiscoverImpl
+54  bases
+55  CLogUnreadImpl
+56  CBBString  father: TBBFixedLengthStringBase CBase 
+57  CBBStreamData
+58  CBBStreamComment
+59  TBBServerMessage
+60  CBBChannelPost
+61  CLog_sms
+62  CBBString8  father: TBBFixedLengthStringBase8 CBase 
+63  CBBUserPic
+64  CBBSubSession  father: CCheckedActive MContextBase MBBSession 
+65  CUserPics
+66  CLookupHandlerImpl
+67  CBBListenerImpl
+68  CBBLocalListenerImpl
+69  CBTDevApView  father: CAknView 
+70  CBTDeviceList  father: CBase 
+71  CBlackBoardServerSession  father: SESSION MBlackBoardObserver MBack 
+72  CBlackBoardServer
+73  CBubbleContainer  father: CCoeControl MJuikControl 
+74  CBubbledStreamItem
+75  CTransferDirImpl
+76  CContextMediaArrayImpl
+77  CContextMediaBoxDrawer
+78  CContextMediaEditorView
+79  CContextMediaAppThreadView
+80  CContextMediaAppListboxContainer
+81  TCMOldPrompt
+82  CContextMediaAppAppUi
+83  CCMNetworkImpl
+84  CCellMap  father: MDBStore MContextBase CBase 
+85  CCircularLog  father: MDesCArray CBase 
+86  CUserContextContainer
+87  CLogContainer
+88  CCommDbDump  father: CBase 
+89  CDbtestAppUi
+90  CContextLocaAppUi
+91  CCommentsView  father: CJaikuViewBase 
+92  CConnectivityListener  father: CBase 
+93  CConnectionOpener
+94  CContextCallLogView  father: CAknView MContextBase 
+95  CContextCallLogAppUi
+96  CContextContactsDetailView  father: CJaikuViewBase MContactViewBase 
+97  CContextContactsView  father: CJaikuViewBase MSettingListener MNetworkErrorObserver 
+98  CContextMediaAppGeneralContainer  father: CCoeControl MContextBase 
+99  CContextMediaArray  father: CBase MDesCArray MPostNotify 
+100  CContextMediaBox  father: CEikFormattedCellListBox MContextBase 
+101  CContextMenuArray  father: CBase MDesCArray MContextBase 
+102  CContextMenuAppUi
+103  CContextMenuView2  father: CAknView 
+104  CContextNoteContainer  father: CCoeControl MEikEdwinObserver 
+105  CContextNoteAppUi
+106  CContextNotifySession  father: CSession SESSION 
+107  CContextNotify
+108  CContextServerSession  father: CSession SESSION 
+109  CContextbookView  father: CAknView 
+110  CContextbookAppUi
+111  CCurrentLoc  father: CBase Mlog 
+112  CleanupStack
+113  CDb  father: MContextBase CBase 
+114  CBaseStackImpl
+115  CSettings
+116  CDbtestContainer  father: CCoeControl Mroutes 
+117  CDebugAppScheduler  father: CCoeScheduler MContextBase 
+118  MContextDocument
+119  CDirectedGraph  father: CBase 
+120  CDiscover  father: CComponentBase Mlog 
+121  CDorisBrowserInterface  father: CBase 
+122  
+123  CContextFetchAppUi
+124  CDrawer  father: CActive MForegroundObserver 
+125  CDummyProjDialog  father: CEikDialog 
+126  CDummyProjAppUi
+127  CDynamicSettingsView  father: CAknView 
+128  CErrorInfoView  father: CAknView 
+129  CErrorLogger  father: CBase MContextBase MActiveErrorReporter 
+130  CEverybodysFeedView  father: CJaikuViewBase 
+131  CExpect  father: CBase 
+132  CProtoSocket
+133  CFeedEngine  father: CBase 
+134  CFeedGroupView  father: CJaikuViewBase 
+135  CFeedItemStorage  father: CCheckedActive 
+136  CTest_Storage
+137  CFocusHandling  father: CBase 
+138  CGeneralFeedControl
+139  CFocusableBuddy  father: CCoeControl MJuikControl 
+140  CForeground  father: CActive 
+141  CGenericIntMap  father: MGenericIntMap CBase 
+142  CJaikuCacher
+143  CGenericStringMap  father: CBase MContextBase 
+144  CHintBox  father: CBase 
+145  CHttpTransfer2  father: CCheckedActive 
+146  CIndependentWatcher  father: CActive 
+147  CJabber  father: CBase MContextBase MTimeOut MEngineObserver MNestedXmlHandler 
+148  CJabberData  father: MDBStore MContextBase MSettingListener CBase 
+149  CContextContactsContainer
+150  CMessaging
+151  CJaikuCacherSession  father: CSession SESSION 
+152  CJaikuCommonMenus  father: CBase MCommonMenus 
+153  CJaikuContactsListBox  father: CEikFormattedCellListBox MContextBase MUserPicObserver 
+154  CJaikuContactsListController  father: CBase MContextBase MUserPicObserver MFeedNotify 
+155  CJaikuViewBase  father: CAknView MContextBase 
+156  CJuikGenListBox  father: CEikFormattedCellListBox 
+157  CJuikGfxStore  father: CBase 
+158  CJuikImage  father: CEikImage MJuikControl MContextBase 
+159  CJuikLabel  father: CEikLabel MJuikControl MContextBase 
+160  CProgressBarModel
+161  CJuikLayout  father: CBase MJuikLayout 
+162  CContextWelcomeAppUi
+163  CJuikSizerContainer  father: CCoeControl MJuikControl 
+164  CJuikContainerBase
+165  CLocalNotifyWindow  father: CCoeControl 
+166  CRecognizerContainer
+167  CNotifyWindowControl
+168  CLookupHandler  father: CCheckedActive 
+169  CMediaRunner  father: CBase 
+170  CMessageHolder  father: CBase 
+171  COperatorMap  father: CBase 
+172  CPermanentSubscriptions  father: CBase 
+173  CPicturePublisher  father: CCheckedActive Mlogger 
+174  CMediaRunnerImpl
+175  CPopupNotifier  father: CCoeControl 
+176  CPostPart  father: CBase 
+177  CHttpImpl
+178  CPosterUi  father: CBase 
+179  CPresenceData  father: CBase MXmlHandler MPresenceData 
+180  CPresenceDescriptionView  father: CAknView 
+181  CPresenceDetailView  father: CAknView 
+182  CPresencePublisher  father: CCheckedActive MPresenceMaintainer MNetworkConnection MSettingListener MConnectivityCallback 
+183  RDebug
+184  CPresenceUpdater  father: MTimeOut 
+185  CReclaimManager  father: CBase 
+186  CMapFactory
+187  CSequenceIdMap
+188  CRichPresenceView  father: CJaikuViewBase 
+189  CSavedPoints  father: MDBStore MContextBase CBase 
+190  CSendUITransfer  father: CTransferBase 
+191  CSensorRunner  father: CBase 
+192  CSettingsUi  father: CBase 
+193  CSettingsView  father: CAknView MContextBase 
+194  CSocketsEngine  father: CCheckedActive MTimeOut MEngineNotifier MSocketObserver MContextBase MConnectionErrorCallback 
+195  CSplashScreen  father: CCoeControl MInitializationObserver 
+196  CContextFlickrDocument
+197  CStack  father: CBase 
+198  CStatusView  father: CAknView MContextBase 
+199  CStreamXml  father: CBase MNestedXmlHandler 
+200  MBBStream
+201  CSubscriptions  father: CBase 
+202  CSymbianOSUnitAppView  father: CQikViewBase CCoeControl MCoeView MUiUpdater 
+203  CSymbianOSUnitAppUi
+204  CTagStorage  father: CBase MDesCArray 
+205  CTaskListContainer  father: CCoeControl 
+206  CTaskListAppUi
+207  CThemeColors  father: CBase 
+208  CTimeOut  father: CTimer 
+209  CPeriodicTransfer
+210  CTransferBase
+211  CSocketBase
+212  Clocationing
+213  sms
+214  MContextAppUi
+215  CTimePeriodFormatter  father: CBase 
+216  CTransferDir  father: CCheckedActive 
+217  CTupleStore  father: CBase 
+218  CUserView
+219  CVideoEngine  father: CBase 
+220  CViewNavigation  father: CBase MViewNavigation 
+221  CWelcomeController  father: CCheckedActive 
+222  CWelcomePageBase  father: CCoeControl MContextBase 
+223  CWelcomeViewBase
+224  CXmlBuf16  father: CBase 
+225  CXmlBufExternalizer  father: CXmlBuf16 MBBExternalizer 
+226  CXmlParser  father: CBase 
+227  TCheckingXml
+228  TIgnoreXml
+229  GainAnalysis  father: CBase 
+230  Clog_soundlevel
+231  MActiveErrorReporter
+232  CPresenceDetailViewImpl
+233  CPresenceDescriptionViewImpl
+234  CDebugBaScheduler
+235  MBBData
+236  CSmsStatusReplierImpl
+237  CBBDumperImpl
+238  CContext_logContainer
+239  TBBUserGiven
+240  TBBUnread
+241  TBBThreadRequest
+242  TBBSysEvent
+243  TBBSentInvite
+244  TBBProfile
+245  TBBLocaMsgStatus
+246  TBBUserActive
+247  TBBCurrentApp
+248  TBBCellNaming
+249  TBBCellId
+250  TBBCalendar
+251  TBBCalendarEvent
+252  TBBBuildInfo
+253  TBBBtDeviceInfo
+254  TBBNeighbourhoodInfo
+255  TBBBattery
+256  TBBBaseInfo
+257  TBBBaseVisit
+258  TBBLocation
+259  TCMSender
+260  TBBFetchItem
+261  Cfile_logger
+262  CBBSessionImpl
+263  TBBPair
+264  TBBUUID
+265  TBBTupleMeta
+266  TBBMD5Hash
+267  TBBCompoundData
+268  TBBFixedLengthStringBase
+269  TBBTupleName
+270  TBBAck
+271  CPartContainerXml
+272  CBBGenericList
+273  TBBErrorCode
+274  MBBDataFactory
+275  CBBDataFactoryImpl
+276  MBBExternalizer
+277  TBBBool
+278  TBBFixedLengthStringBase8
+279  TBBInt
+280  TBBInt64
+281  TBBTime
+282  TBBUid
+283  TBBUint
+284  MBlackBoardObserver
+285  MCallStack
+286  TCallStackItem
+287  MCallerIdMngrObserver
+288  CCallerIdMngr
+289  MCellMap
+290  MErrorInfo  father: MRefCounted 
+291  MFeedItemDeletionNotify
+292  MGenericIntMap
+293  MJuikControl
+294  CSoftScrollList
+295  MJuikDataProvider
+296  CSubcellRenderer
+297  MJuikSizer
+298  MListObserver
+299  MMapFactory
+300  routes_test
+301  MNaming
+302  MNestedXmlHandler  father: MXmlHandler 
+303  MNetworkConnection
+304  MPageObserver
+305  MPostDeletionNotify
+306  MPostNotify
+307  MPresenceData
+308  MPresenceListener
+309  MReclaimable
+310  MSequenceIdMap
+311  MSequenceMap
+312  MSocketObserver
+313  MStaticIconProvider
+314  CIconDataProvider
+315  MUploadCallBack
+316  CUploadViewImpl
+317  CMultiPromptImpl
+318  TDummyPrompt
+319  TNoUploadPrompt
+320  CVisualCodePromptImpl
+321  TOldPrompt
+322  MUploadPrompt
+323  MXmlHandler
+324  Mlogger  father: MBBObserver 
+325  Mlog_base_impl
+326  RAApaLsSession  father: RApaLsSession RABase 
+327  CApp_contextImpl
+328  RADbColReadStream  father: RDbColReadStream RABase 
+329  RADbColWriteStream  father: RDbColWriteStream RABase 
+330  CJabberPics
+331  CTupleStoreImpl
+332  RAFile  father: RFile RABase 
+333  CTest_UserPics
+334  CTest_BufferIcon
+335  CShortcutReplacer
+336  CErrorInfoViewImpl
+337  COperatorMapImpl
+338  CMMSImpl
+339  CPermanentSubscriptionsImpl
+340  CInsertsImpl
+341  RAFileReadStream  father: RFileReadStream RABase 
+342  RAFileWriteStream  father: RFileWriteStream RABase 
+343  RContextClientSession  father: RSessionBase 
+344  RJaikuCacher  father: RSessionBase 
+345  CTest_ContactsCache
+346  CUTContactEngine
+347  RSharedDataClient  father: RSessionBase 
+348  CAutoAccessPoint
+349  SHA1  father: CBase 
+350  CBBProtocolImpl
+351  CBBLocalProtocolImpl
+352  CBTDeviceListImpl
+353  CTest_BuildInfo
+354  CLogCalendarImpl
+355  CPresenceDetailContainer
+356  TBBLongString  father: TBBFixedLengthStringBase 
+357  TBBSeverity  father: TBBUint 
+358  TBBErrorType
+359  TBBShortString  father: TBBFixedLengthStringBase 
+360  Clog_comm
+361  TJuikLayoutItem
+362  CTest_LayoutData
+363  CWelcomeSelectionPage
+364  CDrawerImpl
+365  TUiDelegates
+366  WaveFile
+367  Mrecorder
+368  CTest_ActiveContact
+369  CPresenceArrayImpl
+370  CJaikuContactsArray
+371  drawer
+372  CNameArrayImpl
+373  MContactViewBase
+374  CContactListBoxArray
+375  CContextCallLogContainer
+376  call_log
+377  CContextbookContainer
+378  doublelinebox  father: CEikFormattedCellListBox 
+379  phonehelper  father: CCheckedActive 

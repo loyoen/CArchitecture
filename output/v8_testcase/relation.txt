@@ -1,0 +1,471 @@
+Access   ->   std  
+AccessorInfo   ->   std  JSObject  
+AccessorPair   ->   JSObject  Heap  V8HeapExplorer  
+ActionNode   ->   Analysis  DispatchTableConstructor  DotPrinter  
+AliasedArgumentsEntry   ->   Heap  
+AllSpaces   ->   Heap  
+AllocationSite   ->   JSObject  V8HeapExplorer  CallNew  
+AllocationSiteInfo   ->   JSObject  Heap  
+Analysis   ->   RegExpEngine  HEnvironmentLivenessAnalysisPhase  
+ApiFunction   ->   ExternalReference  
+Arguments   ->   std  JSObject  CallICBase  HOptimizedGraphBuilder  Debug  
+ArrayConstructorStub   ->   Genesis  
+ArrayLiteral   ->   AstTyper  AstPrinter  PrettyPrinter  CompileTimeValue  HOptimizedGraphBuilder  
+AssemblerBase   ->   CpuFeatureScope  PredictableCodeSizeScope  
+AssertionNode   ->   Analysis  DispatchTableConstructor  DotPrinter  
+Assignment   ->   AstTyper  TypeFeedbackOracle  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  
+AstContext   ->   HOptimizedGraphBuilder  
+BackReferenceNode   ->   Analysis  DotPrinter  
+BailoutId   ->   std  SharedFunctionInfo  HBasicBlock  HOptimizedGraphBuilder  FullCodeGenerator  Deoptimizer  Translation  
+BasicJsonStringifier   ->   std  
+BinaryOpIC   ->   BinaryOpStub  
+BinaryOperation   ->   AstTyper  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  FullCodeGenerator  
+BitVector   ->   LAllocator  HAdd  HChange  HDiv  HForceRepresentation  HMathFloorOfDiv  HMod  HMul  HSub  HUnaryMathOperation  HInferRepresentationPhase  HGlobalValueNumberingPhase  HEnvironmentLivenessAnalysisPhase  
+Block   ->   AstTyper  Processor  AstPrinter  PrettyPrinter  Parser  HOptimizedGraphBuilder  FullCodeGenerator  
+Bootstrapper   ->   NativesExternalStringResource  
+Box   ->   Heap  
+BoyerMooreLookahead   ->   ActionNode  AssertionNode  BackReferenceNode  ChoiceNode  LoopChoiceNode  STATIC_ASSERT  TextNode  
+BoyerMoorePositionInfo   ->   BoyerMooreLookahead  
+BreakLocationIterator   ->   std  Debug  
+BreakPointInfo   ->   DebugInfo  Debug  
+BreakStatement   ->   AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  FullCodeGenerator  
+BreakableStatement   ->   Parser  HOptimizedGraphBuilder  
+BreakableStatementChecker   ->   FullCodeGenerator  
+Builtins   ->   Code  SharedFunctionInfo  Deoptimizer  CpuProfiler  
+ByteArray   ->   V8  StringStream  
+CPU   ->   SamplingCircularQueue  
+Call   ->   AstTyper  TypeFeedbackOracle  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  FullCodeGenerator  Debug  
+CallHandlerInfo   ->   Logger  
+CallNew   ->   AstTyper  TypeFeedbackOracle  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  
+CallOptimization   ->   CallStubCompiler  
+CallRuntime   ->   AstTyper  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  FullCodeGenerator  AstConstructionVisitor  
+CallStubCompiler   ->   StubCache  
+CaseClause   ->   AstTyper  Processor  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  
+Cell   ->   TypeFeedbackOracle  Deserializer  Code  AllocationSite  V8HeapExplorer  
+CharacterRange   ->   DispatchTable  DispatchTableConstructor  DotPrinter  TextNode  RegExpUnparser  
+ChoiceNode   ->   Analysis  DispatchTableConstructor  DotPrinter  RegExpAssertion  RegExpDisjunction  RegExpEngine  RegExpQuantifier  
+Code   ->   TypeFeedbackOracle  StubCache  LargeObjectSpace  PagedSpace  Deserializer  SafepointTable  RuntimeProfiler  NativeRegExpMacroAssembler  CodeCache  DependentCode  JSFunction  Map  SharedFunctionInfo  CodeFlusher  MarkCompactCollector  Logger  LowLevelLogger  CallICBase  CompareIC  CompareNilIC  IC  KeyedLoadIC  KeyedStoreIC  LoadIC  StoreIC  Heap  V8HeapExplorer  GDBJITInterface  JavaScriptFrame  OptimizedFrame  StackFrame  StubFailureTrampolineFrame  Deoptimizer  DeoptimizingCodeListNode  Debug  CpuProfiler  CodeStub  ToBooleanStub  Builtins  RelocInfo  RelocIterator  
+CodeCache   ->   Heap  V8HeapExplorer  
+CodeCacheHashTable   ->   CodeCache  
+CodeCreateEventRecord   ->   CpuProfiler  
+CodeEntry   ->   ProfileGenerator  CpuProfileNode  
+CodeEventsContainer   ->   CpuProfiler  ProfilerEventsProcessor  
+CodeFlusher   ->   SharedFunctionInfo  Context  
+CodeMoveEventRecord   ->   CpuProfiler  
+CodeRange   ->   MemoryChunk  
+CommandMessage   ->   CommandMessageQueue  LockingCommandMessageQueue  
+CommandMessageQueue   ->   LockingCommandMessageQueue  
+CompareIC   ->   ICCompareStub  
+CompareNilICStub   ->   TypeFeedbackOracle  CompareNilIC  CodeStubGraphBuilder  
+CompareOperation   ->   AstTyper  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  FullCodeGenerator  
+CompilationCache   ->   RegExpImpl  Compiler  
+CompilationCacheEval   ->   CompilationCache  
+CompilationCacheRegExp   ->   CompilationCache  
+CompilationCacheScript   ->   CompilationCache  
+CompilationInfo   ->   AstTyper  Scope  Rewriter  Parser  DependentCode  Map  PropertyCell  LChunk  HGraph  HOptimizedGraphBuilder  HStatistics  HTracer  FullCodeGenerator  CpuProfiler  CompilationPhase  Compiler  OptimizingCompiler  CodeGenerator  
+CompilationInfoWithZone   ->   JSFunction  Compiler  
+CompleteParserRecorder   ->   Disjunction  
+Conditional   ->   AstTyper  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  FullCodeGenerator  
+ConsString   ->   ConsStringIteratorOp  String  Heap  V8HeapExplorer  RecursivelySerializeToUtf8  i  
+Context   ->   V8  TypeFeedbackOracle  Scope  std  CompilationCacheTable  JSFunction  JSObject  Object  SharedFunctionInfo  MarkCompactCollector  Isolate  Heap  V8HeapExplorer  Factory  Deoptimizer  Call  v8  Accessors  
+ContextSlotCache   ->   ScopeInfo  
+ContinueStatement   ->   AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  FullCodeGenerator  
+CountOperation   ->   AstTyper  TypeFeedbackOracle  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  
+Counter   ->   Shell  
+CounterCollection   ->   Shell  
+CounterMap   ->   Shell  
+Counters   ->   Heap  CodeStub  
+CpuProfile   ->   CpuProfilesCollection  CpuProfiler  
+CpuProfiler   ->   CpuProfile  
+CpuProfilesCollection   ->   ProfileGenerator  
+DateCache   ->   JSDate  
+Debug   ->   JSReceiver  Object  CallICBase  Debugger  EnterDebugger  
+DebugInfoListNode   ->   Debug  
+Debugger   ->   ScriptCache  Debug  
+DebuggerAgent   ->   Debugger  v8  
+DebuggerAgentSession   ->   DebuggerAgent  
+Declaration   ->   Scope  Parser  
+DeclaredAccessorDescriptor   ->   DeclaredAccessorDescriptorIterator  
+DeclaredAccessorInfo   ->   KeyedLoadIC  
+DecompositionResult   ->   HBoundsCheck  
+DeferredHandles   ->   Isolate  HandleScopeImplementer  
+DeoptimizationInputData   ->   Code  OptimizedFrame  Deoptimizer  SlotRef  
+DeoptimizationOutputData   ->   Code  Deoptimizer  
+DeoptimizedFrameInfo   ->   Deoptimizer  DeoptimizerData  
+Deoptimizer   ->   std  DeoptimizedFrameInfo  
+DeoptimizerData   ->   Deoptimizer  
+DeoptimizingCodeListNode   ->   Deoptimizer  DeoptimizerData  
+DependentCode   ->   MarkCompactCollector  CompilationInfo  
+Descriptor   ->   Map  DescriptorArray  
+DescriptorArray   ->   StringStream  std  JSObject  Map  MarkCompactMarkingVisitor  KeyedStoreIC  StoreIC  Heap  V8HeapExplorer  
+Deserializer   ->   Snapshot  Isolate  
+Dictionary   ->   uint32_t  
+Disassembler   ->   String  
+DispatchTable   ->   CharacterRange  DispatchTableConstructor  
+DispatchTableConstructor   ->   ChoiceNode  
+DoWhileStatement   ->   AstTyper  AstPrinter  PrettyPrinter  Parser  HOptimizedGraphBuilder  FullCodeGenerator  
+Double   ->   StoreBuffer  
+DuplicateFinder   ->   PreParser  
+ElementsAccessor   ->   FixedArray  JSObject  Factory  
+ExecutableAccessorInfo   ->   Logger  
+ExportDeclaration   ->   AstPrinter  PrettyPrinter  
+Expression   ->   AstTyper  PrettyPrinter  PreParser  CompileTimeValue  Parser  HOptimizedGraphBuilder  FullCodeGenerator  CodeGenerator  
+ExpressionStatement   ->   AstTyper  Processor  AstPrinter  PrettyPrinter  Parser  HOptimizedGraphBuilder  BreakableStatementChecker  FullCodeGenerator  
+ExternalArray   ->   JSObject  
+ExternalAsciiString   ->   Serializer  String  Heap  
+ExternalByteArray   ->   JSObject  
+ExternalPixelArray   ->   JSObject  
+ExternalReference   ->   ExternalReferenceTable  
+ExternalReferenceDecoder   ->   Deserializer  
+ExternalReferenceEncoder   ->   String  RelocInfo  
+ExternalReferenceTable   ->   ExternalReferenceDecoder  ExternalReferenceEncoder  
+ExternalTwoByteString   ->   String  Heap  
+Factory   ->   StringStream  ScopeInfo  CompileTimeValue  Parser  DependentCode  Map  MessageHandler  LiveEdit  BoyerMooreLookahead  HGraphBuilder  HOptimizedGraphBuilder  FuncNameInferrer  Execution  TranslationBuffer  Debug  Debugger  ScriptCache  Shell  Compiler  CodeStub  ICCompareStub  PlatformCodeStub  CodeStubGraphBuilder  HydrogenCodeStub  Bootstrapper  Genesis  Literal  NeanderArray  i  Accessors  
+FastCloneShallowArrayStub   ->   Isolate  
+FixedArray   ->   TransitionArray  StringStream  LargeObjectSpace  std  BreakPointInfo  CodeCache  DescriptorArray  JSFunction  JSObject  Key  Map  NameDictionary  SharedFunctionInfo  JSRegExp  CodeFlusher  MarkCompactCollector  MarkCompactMarkingVisitor  RegExpImpl  Heap  RegExpResultsCache  V8HeapExplorer  JavaScriptFrame  OptimizedFrame  StackHandler  ElementsAccessor  Deoptimizer  DateParser  Array  TypeSwitch  
+FixedArrayBase   ->   JSObject  MarkCompactMarkingVisitor  Heap  
+FixedDoubleArray   ->   std  JSObject  Heap  
+FmtElm   ->   StringStream  
+ForEachStatement   ->   Parser  
+ForInStatement   ->   AstTyper  TypeFeedbackOracle  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  
+ForOfStatement   ->   AstTyper  AstPrinter  PrettyPrinter  Parser  
+ForStatement   ->   AstTyper  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  FullCodeGenerator  
+Foreign   ->   Heap  ClearWrapperCache  
+FrameDescription   ->   DeoptimizedFrameInfo  Deoptimizer  
+FreeList   ->   MarkCompactCollector  template  
+FreeListNode   ->   FreeList  FreeListCategory  Heap  
+FreeSpace   ->   FreeList  FreeListCategory  FreeListNode  
+FuncNameInferrer   ->   Parser  
+FunctionDeclaration   ->   AstTyper  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  
+FunctionEntry   ->   Parser  
+FunctionLiteral   ->   Rewriter  AstPrinter  PrettyPrinter  Parser  LiveEditFunctionTracker  HEnvironment  HOptimizedGraphBuilder  FullCodeGenerator  Compiler  CodeGenerator  
+FunctionPrototypeStub   ->   LoadIC  
+FunctionState   ->   Parser  HBasicBlock  HOptimizedGraphBuilder  
+FunctionTemplateInfo   ->   Logger  Factory  Heap  
+GCTracer   ->   Heap  GlobalHandles  
+GlobalHandles   ->   DeoptimizingCodeListNode  Debug  DebugInfoListNode  Debugger  ScriptCache  
+GlobalObject   ->   V8HeapExplorer  Context  
+GrowableBitVector   ->   FullCodeGenerator  
+Guard   ->   ChoiceNode  
+GuardedAlternative   ->   ChoiceNode  DotPrinter  LoopChoiceNode  RegExpQuantifier  
+HArgumentsElements   ->   HOptimizedGraphBuilder  
+HArgumentsObject   ->   HOptimizedGraphBuilder  
+HBasicBlock   ->   LChunk  LAllocator  FunctionState  HEnvironment  HGraph  HGraphBuilder  HLoopInformation  HOptimizedGraphBuilder  HTracer  TestContext  HRepresentationChangesPhase  HMergeRemovableSimulatesPhase  HRedundantPhiEliminationPhase  HRangeAnalysisPhase  HOsrBuilder  HAllocate  HEnterInlined  HInstruction  HPhi  HValue  HInferTypesPhase  HInferRepresentationPhase  HGlobalValueNumberingPhase  HEnvironmentLivenessAnalysisPhase  HPropagateDeoptimizingMarkPhase  HDeadCodeEliminationPhase  HBoundsCheckEliminationPhase  CodeStubGraphBuilderBase  
+HBinaryOperation   ->   HGraphBuilder  HOptimizedGraphBuilder  HComputeMinusZeroChecksPhase  
+HBlockEntry   ->   HBasicBlock  
+HBoundsCheck   ->   HGraph  HBoundsCheckEliminationPhase  
+HBoundsCheckBaseIndexInformation   ->   HBoundsCheck  
+HCallStub   ->   HOptimizedGraphBuilder  
+HChange   ->   HGraph  HOptimizedGraphBuilder  HRepresentationChangesPhase  HComputeMinusZeroChecksPhase  
+HCheckMapValue   ->   HLoadKeyedGeneric  
+HCheckMaps   ->   HGraphBuilder  HOptimizedGraphBuilder  
+HClassOfTestAndBranch   ->   HOptimizedGraphBuilder  
+HCompareConstantEqAndBranch   ->   HOptimizedGraphBuilder  
+HCompareNumericAndBranch   ->   HGraphBuilder  HOptimizedGraphBuilder  HRangeAnalysisPhase  
+HCompareObjectEqAndBranch   ->   HOptimizedGraphBuilder  
+HConstant   ->   LChunk  HGraph  HGraphBuilder  HOptimizedGraphBuilder  TestContext  HRepresentationChangesPhase  HAllocate  HBitwise  HBoundsCheck  HDiv  HInstr  HMathMinMax  HMod  HPhi  HPower  HSar  HShl  HShr  HStringAdd  HStringCharFromCode  HStringLength  HUnaryMathOperation  Representation  
+HControlInstruction   ->   EffectContext  HGraphBuilder  TestContext  ValueContext  
+HDeoptimize   ->   HBasicBlock  HEnvironmentLivenessAnalysisPhase  
+HDiv   ->   HUnaryMathOperation  
+HDummyUse   ->   HPropagateDeoptimizingMarkPhase  
+HEnterInlined   ->   HOptimizedGraphBuilder  HEnvironmentLivenessAnalysisPhase  
+HEnvironment   ->   HBasicBlock  HGraphBuilder  HOptimizedGraphBuilder  HOsrBuilder  CodeStubGraphBuilderBase  
+HEnvironmentMarker   ->   HEnvironmentLivenessAnalysisPhase  
+HForInCacheArray   ->   HLoadKeyedGeneric  
+HGraph   ->   LChunk  LAllocator  HBasicBlock  HTracer  HOsrBuilder  HPhi  HGlobalValueNumberingPhase  HEnvironmentLivenessAnalysisPhase  
+HHasInstanceTypeAndBranch   ->   HOptimizedGraphBuilder  
+HIfContinuation   ->   EffectContext  HGraphBuilder  TestContext  ValueContext  CodeStubGraphBuilder  
+HInferRepresentationPhase   ->   HValue  
+HInstruction   ->   EffectContext  HBasicBlock  HGraph  HGraphBuilder  HOptimizedGraphBuilder  HTracer  TestContext  ValueContext  HUint32AnalysisPhase  HRepresentationChangesPhase  HMergeRemovableSimulatesPhase  HComputeMinusZeroChecksPhase  HAllocate  HBoundsCheck  HNumericConstraint  HValue  HInferRepresentationPhase  HGlobalValueNumberingPhase  HEscapeAnalysisPhase  HEnvironmentLivenessAnalysisPhase  HPropagateDeoptimizingMarkPhase  HDehoistIndexComputationsPhase  HDeadCodeEliminationPhase  HCanonicalizePhase  HBoundsCheckEliminationPhase  CodeStubGraphBuilder  CodeStubGraphBuilderBase  
+HInstructionIterator   ->   HGraph  HStackCheckEliminationPhase  HMergeRemovableSimulatesPhase  HRangeAnalysisPhase  HComputeMinusZeroChecksPhase  HInferTypesPhase  HGlobalValueNumberingPhase  HEscapeAnalysisPhase  HPropagateDeoptimizingMarkPhase  HDehoistIndexComputationsPhase  HDeadCodeEliminationPhase  HCanonicalizePhase  HBoundsCheckEliminationPhase  
+HInvokeFunction   ->   HOptimizedGraphBuilder  
+HIsSmiAndBranch   ->   HOptimizedGraphBuilder  
+HLoadKeyed   ->   HLoadKeyedGeneric  
+HLoadNamedField   ->   HGraphBuilder  
+HMathFloorOfDiv   ->   HUnaryMathOperation  
+HObjectAccess   ->   HOptimizedGraphBuilder  
+HOptimizedGraphBuilder   ->   AstContext  FunctionState  TestContext  
+HOsrBuilder   ->   HOptimizedGraphBuilder  
+HPhi   ->   LAllocator  HBasicBlock  HEnvironment  HGraph  HGraphBuilder  HTracer  HUint32AnalysisPhase  HRepresentationChangesPhase  HRedundantPhiEliminationPhase  HOsrBuilder  HComputeMinusZeroChecksPhase  HInductionVariableAnnotation  HInferTypesPhase  HDeadCodeEliminationPhase  
+HShl   ->   HOptimizedGraphBuilder  
+HShr   ->   HOptimizedGraphBuilder  
+HSimulate   ->   HBasicBlock  HMergeRemovableSimulatesPhase  HEnvironmentLivenessAnalysisPhase  
+HStoreContextSlot   ->   HOptimizedGraphBuilder  
+HStoreKeyed   ->   HOptimizedGraphBuilder  HUint32AnalysisPhase  
+HStoreNamedField   ->   HOptimizedGraphBuilder  HCheckMaps  CodeStubGraphBuilder  
+HSuccessorIterator   ->   LAllocator  HBasicBlock  HTracer  HControlInstruction  HEnvironmentLivenessAnalysisPhase  
+HThrow   ->   HOptimizedGraphBuilder  
+HTransitionElementsKind   ->   HGlobalValueNumberingPhase  
+HType   ->   HConstant  HPhi  HValue  
+HTypeof   ->   HOptimizedGraphBuilder  
+HTypeofIsAndBranch   ->   HOptimizedGraphBuilder  
+HUnaryControlInstruction   ->   HOptimizedGraphBuilder  
+HUseIterator   ->   HGraph  HUint32AnalysisPhase  HRepresentationChangesPhase  HRedundantPhiEliminationPhase  HLoadGlobalCell  HLoadKeyed  HPhi  HValue  HInferRepresentationPhase  HEscapeAnalysisPhase  
+HUseListNode   ->   HValue  
+HValue   ->   LAllocator  HEnvironment  HGraph  HGraphBuilder  HOptimizedGraphBuilder  TestContext  ValueContext  HUint32AnalysisPhase  HRepresentationChangesPhase  HRedundantPhiEliminationPhase  HRangeAnalysisPhase  HComputeMinusZeroChecksPhase  HAllocate  HBitNot  HBitwise  HBoundsCheck  HCheckMaps  HDiv  HInstr  HInstruction  HLoadGlobalCell  HLoadKeyed  HMathMinMax  HMod  HNumericConstraint  HObjectAccess  HPhi  HPower  HShr  HStringAdd  HStringCharFromCode  HStringLength  HUnaryMathOperation  RangeEvaluationContext  Representation  HInferTypesPhase  HInferRepresentationPhase  HGlobalValueNumberingPhase  HValueMap  HEscapeAnalysisPhase  HPropagateDeoptimizingMarkPhase  HDeadCodeEliminationPhase  CodeStubGraphBuilder  
+Handle   ->   JsHttpRequestProcessor  JSObject  LoadIC  StoreIC  Debug  
+HandleScope   ->   TypeFeedbackOracle  std  JsHttpRequestProcessor  v8  Shell  Bootstrapper  Debug  Local  Message  StackFrame  StackTrace  
+HandleScopeImplementer   ->   V8  HandleScope  
+HashTable   ->   Key  
+HashTableKey   ->   StringTable  
+Heap   ->   SweeperThread  StringStream  StoreBuffer  FreeListCategory  FreeListNode  MemoryChunk  NewSpacePage  PagedSpace  Serializer  Parser  CodeCacheHashTable  DebugInfo  DescriptorArray  ExternalDoubleArray  ExternalFloatArray  ExternalUnsignedIntArray  FixedArray  HeapObject  JSFunction  JSObject  JSReceiver  Key  Map  NameDictionary  Object  SeqString  SharedFunctionInfo  String  uint32_t  CodeFlusher  MarkCompactMarkingVisitor  Logger  RegExpEngine  IncrementalMarking  KeyedStoreIC  HGraphBuilder  HConstant  ErrorObjectList  RegExpResultsCache  STATIC_ASSERT  HeapSnapshotGenerator  V8HeapExplorer  InnerPointerToCodeCache  Factory  Debug  CodeStub  Builtins  Bootstrapper  Genesis  ExternalReference  Isolate  Accessors  
+HeapEntry   ->   HeapSnapshot  HeapSnapshotJSONSerializer  NativeObjectsExplorer  V8HeapExplorer  
+HeapGraphEdge   ->   HeapSnapshot  HeapSnapshotJSONSerializer  
+HeapIterator   ->   Logger  Heap  HeapObjectsMap  HeapSnapshotsCollection  V8HeapExplorer  Debug  
+HeapNumber   ->   JSObject  uint32_t  
+HeapNumberMaterializationDescriptor   ->   Deoptimizer  
+HeapObject   ->   StringStream  StoreBuffer  CellSpace  LargeObjectSpace  MapSpace  NewSpace  Page  PagedSpace  PropertyCellSpace  PartialSerializer  std  Object  MarkCompactCollector  MarkCompactMarkingVisitor  Logger  IncrementalMarking  ErrorObjectList  Heap  PathTracer  STATIC_ASSERT  HeapObjectsMap  HeapSnapshotsCollection  V8HeapExplorer  Debug  i  
+HeapObjectIterator   ->   PagedSpace  MarkCompactCollector  Heap  
+HeapSnapshot   ->   HeapGraphEdge  
+HeapSnapshotGenerator   ->   HeapProfiler  
+HeapSnapshotJSONSerializer   ->   HeapSnapshot  
+HeapStats   ->   Heap  GlobalHandles  i  
+HydrogenCodeStub   ->   HGraph  
+IC   ->   SharedFunctionInfo  HOptimizedGraphBuilder  BreakLocationIterator  Debug  Call  
+ICCompareStub   ->   CompareIC  
+ICStub   ->   TypeFeedbackOracle  
+IdempotentPointerToHandleCodeTrampoline   ->   PropertyCell  
+IfStatement   ->   AstTyper  Processor  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  FullCodeGenerator  
+ImportDeclaration   ->   AstTyper  AstPrinter  PrettyPrinter  
+IncrementalMarking   ->   MarkCompactCollector  
+InterceptorInfo   ->   JSObject  
+Interface   ->   ModuleInfo  Parser  Nesting  FullCodeGenerator  
+InternalArrayConstructorStub   ->   Genesis  
+InterruptStub   ->   std  RuntimeProfiler  Compiler  
+Interval   ->   ActionNode  RegExpQuantifier  Trace  RegExpCapture  
+Isolate   ->   ContextSwitcher  Locker  ThreadManager  V8  Type  SweeperThread  StringStream  StoreBuffer  LargeObjectSpace  PagedSpace  Deserializer  ExternalReferenceTable  PartialSerializer  Serializer  SerializerDeserializer  StartupSerializer  Scope  ScopeInfo  SamplerThread  SignalHandler  RuntimeProfiler  RegExpStackScope  NativeRegExpMacroAssembler  RegExpMacroAssemblerIrregexp  Disjunction  Parser  BreakPointInfo  Code  DebugInfo  DeclaredAccessorDescriptor  GlobalObject  JSArray  JSObject  JSProxy  JSReceiver  Map  NormalizedMapCache  Object  Relocatable  String  MessageHandler  MarkingThread  Logger  LiveEdit  LiveEditFunctionTracker  CharacterRange  RegExpImpl  IncrementalMarking  IC  HObjectAccess  HStringCharFromCode  ErrorObjectList  NativeObjectsExplorer  V8HeapExplorer  ClearWrapperCache  DeferredHandleScope  HandleScope  FullCodeGenerator  SafeStackFrameIterator  StackFrame  StackFrameIterator  StackHandler  Execution  Deoptimizer  Debug  Debugger  EnterDebugger  MessageDispatchHelperThread  v8  ReadBufferWeakCallback  Shell  SourceGroup  ProfilerEventsProcessor  Context  CompilationInfo  Compiler  CodeGenerator  CodeStub  ICCompareStub  PlatformCodeStub  UnaryOpStub  CodeStubGraphBuilder  HydrogenCodeStub  Builtins  Bootstrapper  Genesis  Call  ObjectLiteralProperty  ExternalReference  RelocInfo  CallbackTable  CpuProfile  CpuProfileNode  DataView  EnsureInitializedForIsolate  Exception  HeapGraphEdge  HeapGraphNode  HeapSnapshot  InitializeHelper  IsDeadCheck  IsExecutionTerminatingCheck  Local  Message  NeanderObject  ObjectTemplate  PrepareExternalArrayElements  Script  Signature  StackTrace  TypeSwitch  Value  i  Accessors  
+IterationStatement   ->   Processor  Parser  HBasicBlock  HOptimizedGraphBuilder  HOsrBuilder  
+JSArray   ->   StringStream  FixedArray  JSObject  Logger  Heap  Accessors  
+JSArrayBuffer   ->   std  Heap  
+JSConstructEntryStub   ->   Heap  
+JSEntryStub   ->   Heap  
+JSFunction   ->   TypeFeedbackOracle  StringStream  std  RuntimeProfiler  JSObject  Map  SharedFunctionInfo  CodeFlusher  Isolate  CallICBase  ErrorObjectList  Heap  V8HeapExplorer  ArgumentsAdaptorFrame  JavaScriptFrame  OptimizedFrame  Deoptimizer  Context  BuiltinArguments  Call  CheckConstructor  i  Accessors  
+JSFunctionProxy   ->   Heap  
+JSGeneratorObject   ->   std  
+JSGlobalProxy   ->   Heap  V8HeapExplorer  
+JSMessageObject   ->   Heap  
+JSModule   ->   Heap  Accessors  
+JSObject   ->   StringStream  std  AllocationSiteInfo  JSReceiver  NameDictionary  NormalizedMapCache  Object  MarkCompactMarkingVisitor  Logger  Isolate  Heap  V8HeapExplorer  Deoptimizer  i  v8  Accessors  
+JSProxy   ->   std  Heap  
+JSReceiver   ->   Object  Heap  
+JSRegExp   ->   V8HeapExplorer  
+JSValue   ->   ClearWrapperCache  Accessors  
+JSWeakMap   ->   MarkCompactCollector  
+JavaScriptFrame   ->   std  RuntimeProfiler  Isolate  CallICBase  Deoptimizer  Debug  Accessors  
+JavaScriptFrameIterator   ->   std  Isolate  JavaScriptFrame  Execution  Deoptimizer  Debug  EnterDebugger  Accessors  
+KeyedLoadFieldStub   ->   StubCache  
+KeyedLoadStubCompiler   ->   StubCache  
+KeyedLookupCache   ->   std  
+KeyedStoreStubCompiler   ->   StubCache  
+LAllocator   ->   LChunk  LAllocatorPhase  HTracer  
+LChunk   ->   LAllocator  HTracer  
+LConstantOperand   ->   LChunk  
+LMoveOperands   ->   LAllocator  
+LOperand   ->   LParallelMove  LPointerMap  LAllocator  LiveRange  STATIC_ASSERT  HTracer  
+LParallelMove   ->   LAllocator  
+LPointerMap   ->   LAllocator  
+LUnallocated   ->   LOperand  LAllocator  LiveRange  UsePosition  
+Label   ->   BaseStoreStubCompiler  RegExpMacroAssemblerIrregexp  
+LargeObjectIterator   ->   StoreBuffer  LargeObjectSpace  MarkCompactCollector  IncrementalMarking  Heap  
+LargeObjectSpace   ->   LargeObjectIterator  
+LargePage   ->   StoreBuffer  LargeObjectSpace  IncrementalMarking  InnerPointerToCodeCache  
+LifetimePosition   ->   LAllocator  LiveRange  STATIC_ASSERT  UseInterval  
+LineEditor   ->   Shell  
+Literal   ->   AstTyper  AstPrinter  PrettyPrinter  ObjectLiteralPropertyChecker  Parser  HOptimizedGraphBuilder  FullCodeGenerator  Assignment  Call  ObjectLiteral  ObjectLiteralProperty  Property  
+LiveEditFunctionTracker   ->   Compiler  
+LiveRange   ->   LAllocator  STATIC_ASSERT  HTracer  
+LoadFieldStub   ->   StubCache  
+LoadStubCompiler   ->   StubCache  
+LockingCommandMessageQueue   ->   Debugger  
+Log   ->   Logger  LogMessageBuilder  BreakableStatementChecker  Genesis  
+LogMessageBuilder   ->   Logger  
+Logger   ->   Profiler  LogMessageBuilder  LockingCommandMessageQueue  CpuProfiler  
+LookupResult   ->   BaseLoadStubCompiler  BaseStoreStubCompiler  CallOptimization  StubCompiler  GlobalObject  JSObject  JSReceiver  Object  CallICBase  KeyedLoadIC  KeyedStoreIC  LoadIC  StoreIC  HOptimizedGraphBuilder  HLoadNamedFieldPolymorphic  HObjectAccess  ErrorObjectList  V8HeapExplorer  Genesis  Call  GetPropertyByLookup  
+LoopChoiceNode   ->   Analysis  RegExpQuantifier  
+Map   ->   Type  TypeFeedbackOracle  StringStream  std  HeapObject  JSFunction  JSObject  NameDictionary  NormalizedMapCache  SharedFunctionInfo  Code  MarkCompactCollector  MarkCompactMarkingVisitor  Isolate  IC  HObjectAccess  Heap  PathTracer  V8HeapExplorer  
+MapCache   ->   MarkCompactCollector  
+MapSpace   ->   Heap  
+MapWord   ->   RuntimeProfiler  IncrementalMarking  ErrorObjectList  Heap  
+MarkBit   ->   LargeObjectSpace  CodeFlusher  MarkCompactCollector  Marking  
+MarkCompactCollector   ->   SweeperThread  PagedSpace  Map  Heap  
+MarkingDeque   ->   MarkCompactCollector  
+MaterializedLiteral   ->   CompileTimeValue  Parser  
+MaybeObject   ->   TypeFeedbackOracle  TransitionArray  NewSpace  std  CodeCache  CodeCacheHashTable  CompilationCacheTable  DescriptorArray  FixedArray  JSArray  JSFunction  JSObject  JSProxy  Key  Map  MapCache  NameDictionary  NormalizedMapCache  Object  ObjectHashSet  ObjectHashTable  Oddball  PolymorphicCodeCache  PolymorphicCodeCacheHashTable  PropertyCell  SeededNumberDictionary  SharedFunctionInfo  String  StringTable  UnseededNumberDictionary  uint32_t  MarkCompactCollector  Logger  Isolate  Heap  RegExpResultsCache  Builtins  Genesis  v8  Accessors  
+MemoryAllocator   ->   SemiSpace  DeoptimizerData  
+MemoryChunk   ->   StoreBuffer  LargeObjectSpace  MemoryAllocator  NewSpacePage  IncrementalMarking  Heap  Deoptimizer  
+MessageDispatchHelperThread   ->   Debugger  
+MessageLocation   ->   MessageHandler  LiveEdit  Isolate  
+Module   ->   Parser  
+ModuleDeclaration   ->   AstTyper  AstPrinter  PrettyPrinter  FullCodeGenerator  
+ModuleLiteral   ->   AstTyper  AstPrinter  PrettyPrinter  FullCodeGenerator  
+ModulePath   ->   AstTyper  AstPrinter  PrettyPrinter  
+ModuleStatement   ->   AstTyper  Processor  AstPrinter  PrettyPrinter  FullCodeGenerator  
+ModuleUrl   ->   AstPrinter  PrettyPrinter  FullCodeGenerator  
+ModuleVariable   ->   AstPrinter  PrettyPrinter  
+Mutex   ->   ThreadManager  
+Name   ->   StubCache  StubCompiler  StringsStorage  CodeCache  JSObject  JSReceiver  Map  NameDictionary  Object  Logger  KeyedLookupCache  V8HeapExplorer  GDBJITInterface  
+NameConverter   ->   SafepointTable  DeoptimizationInputData  Deoptimizer  
+NameDictionary   ->   std  JSObject  V8HeapExplorer  
+NeanderArray   ->   Map  MessageHandler  Factory  Template  V8  
+NeanderObject   ->   MessageHandler  V8  
+NewSpace   ->   SemiSpaceIterator  SeqString  MarkCompactCollector  IncrementalMarking  
+NewSpacePage   ->   SemiSpace  MarkCompactCollector  IncrementalMarking  Heap  
+NewSpacePageIterator   ->   NewSpace  SemiSpace  MarkCompactCollector  IncrementalMarking  Heap  
+NodeVisitor   ->   LoopChoiceNode  
+NumericRelation   ->   HCompareNumericAndBranch  HValue  
+OS   ->   Isolate  
+Object   ->   TypeFeedbackOracle  StringStream  LargeObjectSpace  Snapshot  Deserializer  PartialSerializer  Serializer  SerializerDeserializer  StartupSerializer  std  PrettyPrinter  AccessorPair  Code  CodeCache  DebugInfo  DescriptorArray  ExternalDoubleArray  ExternalFloatArray  ExternalPixelArray  ExternalUnsignedIntArray  FixedArray  GlobalObject  JSDate  JSFunction  JSObject  JSProxy  JSReceiver  Key  Map  NameDictionary  NormalizedMapCache  ObjectHashSet  ObjectHashTable  ObjectVisitor  SeededNumberDictionary  SharedFunctionInfo  uint32_t  AllocationSite  MaybeObject  HeapObject  JSRegExp  JSValue  Oddball  MarkCompactCollector  Logger  RegExpImpl  Isolate  IncrementalMarking  IC  HOptimizedGraphBuilder  ErrorObjectList  Heap  PathTracer  RegExpResultsCache  HeapObjectsSet  V8HeapExplorer  GlobalHandles  JavaScriptFrame  SafeStackFrameIterator  StackTraceFrameIterator  Factory  Execution  ElementsAccessor  String  Deoptimizer  Debug  Context  CompilationCacheEval  CompilationCacheRegExp  Genesis  CallNew  ObjectLiteralProperty  RelocInfo  Array  CheckConstructor  DecodeSmiToAligned  ExternalValue  FunctionTemplate  i  v8  Accessors  
+ObjectHashTable   ->   JSObject  MarkCompactCollector  
+ObjectLiteral   ->   AstTyper  AstPrinter  PrettyPrinter  CompileTimeValue  HOptimizedGraphBuilder  
+ObjectMaterializationDescriptor   ->   Deoptimizer  
+ObjectVisitor   ->   SerializerDeserializer  RuntimeProfiler  LookupResult  JSFunction  CodeFlusher  Isolate  Heap  GlobalHandles  ExitFrame  StackFrame  StandardFrame  StubFailureTrampolineFrame  DeoptimizedFrameInfo  Debug  CompilationSubCache  Builtins  Bootstrapper  DeferredHandles  HandleScopeImplementer  
+OldSpace   ->   Deserializer  MarkCompactCollector  Heap  
+OptimizedFunctionVisitor   ->   Deoptimizer  
+OptimizingCompiler   ->   OptimizingCompilerThread  Compiler  
+OutSet   ->   DispatchTableDumper  Trace  
+Page   ->   StoreBuffer  FreeList  HeapObjectIterator  PagedSpace  MarkCompactCollector  IncrementalMarking  Heap  PromotionQueue  
+PageIterator   ->   StoreBuffer  PagedSpace  MarkCompactCollector  IncrementalMarking  Heap  
+PagedSpace   ->   SweeperThread  StoreBuffer  FreeList  HeapObjectIterator  MarkCompactCollector  template  Heap  
+PagedSpaces   ->   MarkCompactCollector  Heap  
+Parser   ->   Disjunction  
+PathTracer   ->   Heap  
+PointerChunkIterator   ->   StoreBuffer  
+PolymorphicCodeCache   ->   IncrementalMarking  
+PolymorphicCodeCacheHashTable   ->   PolymorphicCodeCache  
+PositionsRecorder   ->   Logger  
+PreallocatedStorage   ->   Isolate  
+ProfileNode   ->   ProfileTree  CpuProfileNode  
+Property   ->   AstTyper  TypeFeedbackOracle  AstPrinter  PrettyPrinter  ObjectLiteralPropertyChecker  Parser  HOptimizedGraphBuilder  Assignment  Call  ObjectLiteral  
+PropertyCallbackArguments   ->   JSObject  
+PropertyCell   ->   JSObject  Heap  V8HeapExplorer  
+PropertyDetails   ->   StringStream  std  DescriptorArray  GlobalObject  JSObject  Key  Map  NameDictionary  SeededNumberDictionary  uint32_t  KeyedStoreIC  StoreIC  HOptimizedGraphBuilder  Heap  Genesis  
+PropertyIndex   ->   StubCache  
+QuickCheckDetails   ->   AssertionNode  ChoiceNode  RegExpNode  TextNode  
+Range   ->   HRangeAnalysisPhase  HAdd  HBitwise  HChange  HConstant  HDiv  HMathMinMax  HMod  HMul  HPhi  HSar  HShl  HSub  HUnaryMathOperation  HValue  
+RangeEvaluationContext   ->   HBoundsCheck  HValue  
+RegExpAlternative   ->   RegExpUnparser  
+RegExpAssertion   ->   RegExpUnparser  
+RegExpAtom   ->   TextElement  TextNode  RegExpUnparser  
+RegExpBackReference   ->   RegExpUnparser  
+RegExpCapture   ->   RegExpUnparser  
+RegExpCharacterClass   ->   DispatchTableConstructor  DotPrinter  TextNode  RegExpUnparser  
+RegExpDisjunction   ->   RegExpUnparser  
+RegExpLiteral   ->   AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  
+RegExpLookahead   ->   RegExpUnparser  
+RegExpMacroAssembler   ->   RegExpMacroAssemblerTracer  ActionNode  AssertionNode  BackReferenceNode  BoyerMooreLookahead  ChoiceNode  EndNode  LoopChoiceNode  NegativeSubmatchSuccess  RegExpEngine  RegExpNode  TextNode  Trace  
+RegExpNode   ->   ActionNode  Analysis  ChoiceNode  DispatchTableConstructor  DotPrinter  NegativeLookaheadChoiceNode  RegExpEngine  Trace  
+RegExpQuantifier   ->   RegExpUnparser  
+RegExpStack   ->   NativeRegExpMacroAssembler  
+RegExpStackScope   ->   NativeRegExpMacroAssembler  
+RegExpText   ->   RegExpAtom  RegExpCharacterClass  RegExpUnparser  
+RegExpTree   ->   Disjunction  Pattern  RegExpBuilder  RegExpCapture  RegExpQuantifier  RegExpAlternative  RegExpDisjunction  
+RegisteredExtension   ->   Genesis  
+RelocInfo   ->   TypeFeedbackOracle  Serializer  Code  ObjectVisitor  MarkCompactCollector  String  RelocInfoWriter  
+RelocIterator   ->   TypeFeedbackOracle  PagedSpace  Code  LiveEdit  RelocInfo  String  Debug  
+RemoteDebuggerEvent   ->   RemoteDebugger  
+ReportBuiltinEventRecord   ->   CpuProfiler  
+Representation   ->   JSObject  Map  HGraphBuilder  HOptimizedGraphBuilder  HRepresentationChangesPhase  HBinaryOperation  HBoundsCheck  HCompareNumericAndBranch  HConstant  HPhi  HUnaryMathOperation  HValue  
+ReturnStatement   ->   AstTyper  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  FullCodeGenerator  
+RuntimeState   ->   std  
+SafeStackFrameIterator   ->   SamplerThread  
+SafepointEntry   ->   SafepointTable  Code  OptimizedFrame  StackFrame  StandardFrame  Deoptimizer  
+SafepointTable   ->   Code  
+Sampler   ->   SignalHandler  Isolate  CpuProfiler  
+Scanner   ->   Disjunction  
+Scope   ->   AstTyper  ModuleInfo  ScopeInfo  Rewriter  AstPrinter  PrettyPrinter  PreParser  Parser  HEnvironment  HOptimizedGraphBuilder  FullCodeGenerator  OptimizingCompiler  
+ScopeInfo   ->   Heap  V8HeapExplorer  
+Script   ->   V8HeapExplorer  Debug  Accessors  
+ScriptCache   ->   Debug  
+ScriptDataImpl   ->   Disjunction  Script  
+SealHandleScope   ->   HandleScopeImplementer  
+SeededNumberDictionary   ->   JSObject  uint32_t  V8HeapExplorer  
+Semaphore   ->   Debugger  
+SemiSpace   ->   NewSpacePage  
+SemiSpaceIterator   ->   NewSpace  MarkCompactCollector  
+SeqOneByteString   ->   std  
+SeqRegExpNode   ->   ChoiceNode  
+SeqTwoByteString   ->   Heap  
+SharedFunctionInfo   ->   RuntimeProfiler  CompilationCacheTable  HeapObject  JSFunction  CodeFlusher  MarkCompactMarkingVisitor  Logger  Heap  V8HeapExplorer  JavaScriptFrame  Deoptimizer  Debug  CpuProfiler  
+SharedFunctionInfoLiteral   ->   AstPrinter  PrettyPrinter  FullCodeGenerator  
+SharedFunctionInfoMoveEventRecord   ->   CpuProfiler  
+ShellOptions   ->   Shell  
+SignatureInfo   ->   Heap  
+SimpleListPrinter   ->   CompareNilICStub  ToBooleanStub  UnaryOpStub  
+SimpleStringBuilder   ->   std  
+SlicedString   ->   NativeRegExpMacroAssembler  String  Heap  V8HeapExplorer  
+SlotsBuffer   ->   SlotsBufferAllocator  
+SlotsBufferAllocator   ->   MarkCompactCollector  SlotsBuffer  
+SmallMapList   ->   TypeFeedbackOracle  StubCache  HOptimizedGraphBuilder  HLoadNamedFieldPolymorphic  
+Smi   ->   CompileTimeValue  JSDate  KeyedStoreIC  Heap  StackHandler  Deoptimizer  i  
+SnapshotFillerInterface   ->   V8HeapExplorer  
+Socket   ->   DebuggerAgent  DebuggerAgentUtil  
+SourceCodeCache   ->   Genesis  
+SourceGroup   ->   Shell  
+Space   ->   MemoryAllocator  Heap  
+StackFrame   ->   IC  SafeStackFrameIterator  StackFrameIteratorBase  Debug  
+StackFrameIterator   ->   std  MarkCompactCollector  Isolate  IC  
+StackFrameIteratorBase   ->   StackFrame  
+StackFrameLocator   ->   std  CallICBase  
+StackGuard   ->   Execution  
+StackHandler   ->   EntryFrame  StandardFrame  
+StackLimitCheck   ->   RegExpParser  JSObject  Analysis  Execution  
+StackTraceFrameIterator   ->   Isolate  ProfilerEventsProcessor  
+Statement   ->   Rewriter  PreParser  Parser  FullCodeGenerator  
+StatsCounter   ->   ExternalReference  
+StoreGlobalStub   ->   StubCache  CodeStubGraphBuilder  
+StoreStubCompiler   ->   StubCache  
+String   ->   StringStream  ContextSlotCache  ScopeInfo  NativeRegExpMacroAssembler  StringsStorage  PrettyPrinter  ConsString  ConsStringIteratorOp  JSFunction  JSObject  JSReceiver  SharedFunctionInfo  Logger  LogMessageBuilder  RegExpImpl  Interface  CallICBase  Heap  RegExpResultsCache  V8HeapExplorer  JavaScriptFrame  Factory  Compiler  Utf8Length  i  
+StringBuilder   ->   Logger  GDBJITInterface  String  
+StringCharacterStream   ->   StringStream  std  String  CodeGenerator  
+StringLengthStub   ->   LoadIC  
+StringShape   ->   String  v8  
+StringStream   ->   Failure  HeapNumber  HeapObject  JSObject  Object  SharedFunctionInfo  Smi  String  LEnvironment  LOperand  LParallelMove  LPointerMap  DispatchTable  Isolate  HEnvironment  HAccessArgumentsAt  HAllocate  HBinaryCall  HBinaryOperation  HBitwise  HBoundsCheck  HBoundsCheckBaseIndexInformation  HCallConstantFunction  HCallGlobal  HCallKnownGlobal  HCallNamed  HCallNewArray  HCallRuntime  HCallStub  HChange  HCheckFunction  HCheckInstanceType  HCheckMapValue  HCheckMaps  HCheckPrototypeMaps  HClassOfTestAndBranch  HCompareGeneric  HCompareMap  HCompareNumericAndBranch  HCompareObjectEqAndBranch  HConstant  HControlInstruction  HDeoptimize  HEnterInlined  HEnvironmentMarker  HForInCacheArray  HForceRepresentation  HGoto  HHasInstanceTypeAndBranch  HInductionVariableAnnotation  HInnerAllocatedObject  HInstanceOf  HInstruction  HLoadContextSlot  HLoadFieldByIndex  HLoadGlobalCell  HLoadGlobalGeneric  HLoadKeyed  HLoadKeyedGeneric  HLoadNamedField  HLoadNamedFieldPolymorphic  HLoadNamedGeneric  HNumericConstraint  HObjectAccess  HParameter  HPhi  HReturn  HSimulate  HStoreContextSlot  HStoreGlobalCell  HStoreGlobalGeneric  HStoreKeyed  HStoreKeyedGeneric  HStoreNamedField  HStoreNamedGeneric  HStringCompareAndBranch  HTransitionElementsKind  HTypeofIsAndBranch  HUnaryCall  HUnaryMathOperation  HValue  HWrapReceiver  HDeadCodeEliminationPhase  ArgumentsAdaptorFrame  JavaScriptFrame  StackFrame  FlagList  Deoptimizer  ArgumentsAccessStub  BinaryOpStub  CallConstructStub  CallFunctionStub  CodeStub  CompareNilICStub  HydrogenCodeStub  InstanceofStub  ToBooleanStub  UnaryOpStub  
+StringTable   ->   MarkCompactCollector  
+StubCache   ->   ExternalReferenceTable  
+StubCompiler   ->   StubCache  
+SwitchStatement   ->   AstTyper  Processor  AstPrinter  PrettyPrinter  Parser  HOptimizedGraphBuilder  BreakableStatementChecker  
+Symbol   ->   std  HeapObject  Logger  
+TargetCollector   ->   Parser  
+TempIterator   ->   LAllocator  
+TestContext   ->   FunctionState  HOptimizedGraphBuilder  FullCodeGenerator  
+TextElement   ->   DispatchTableConstructor  DotPrinter  TextNode  
+TextNode   ->   Analysis  DispatchTableConstructor  DotPrinter  
+ThisFunction   ->   HOptimizedGraphBuilder  
+ThreadId   ->   ThreadManager  Isolate  
+ThreadLocalTop   ->   Isolate  
+ThreadManager   ->   ThreadState  
+ThreadState   ->   ThreadManager  std  
+ThreadVisitor   ->   Isolate  
+Throw   ->   AstTyper  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  FullCodeGenerator  
+TickSampleEventRecord   ->   ProfilerEventsProcessor  
+ToBooleanStub   ->   ToBooleanIC  CodeStubGraphBuilder  
+Trace   ->   ActionNode  AssertionNode  BackReferenceNode  ChoiceNode  EndNode  LoopChoiceNode  NegativeSubmatchSuccess  RegExpNode  TextNode  
+TransitionArray   ->   Map  JSObject  V8HeapExplorer  
+TransitionElementsKindStub   ->   CodeStubGraphBuilder  
+TranslationIterator   ->   DeoptimizationInputData  OptimizedFrame  Deoptimizer  SlotRef  
+TryCatchStatement   ->   AstTyper  Processor  AstPrinter  PrettyPrinter  Parser  FullCodeGenerator  
+TryFinallyStatement   ->   AstTyper  Processor  AstPrinter  PrettyPrinter  FullCodeGenerator  
+TryStatement   ->   Parser  
+Type   ->   AstTyper  std  JSReceiver  Map  Isolate  SafeStackFrameIterator  Debugger  ObjectTemplate  
+TypeFeedbackCells   ->   Code  
+TypeFeedbackInfo   ->   IC  Heap  
+TypeFeedbackOracle   ->   Assignment  BinaryOperation  Call  CallNew  CaseClause  CountOperation  Expression  ForInStatement  ObjectLiteral  Property  UnaryOperation  
+TypeInfo   ->   Representation  BinaryOpIC  
+UnaryOpStub   ->   UnaryOpIC  CodeStubGraphBuilder  
+UnaryOperation   ->   AstTyper  AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  BreakableStatementChecker  
+UniqueValueId   ->   HCheckMaps  
+UnseededNumberDictionary   ->   StubCache  CodeStub  
+UseInterval   ->   LiveRange  HTracer  
+UseIterator   ->   LAllocator  
+UsePosition   ->   LAllocator  LiveRange  HTracer  
+V8   ->   std  Debugger  
+ValueContext   ->   HOptimizedGraphBuilder  
+Variable   ->   Scope  ModuleInfo  ScopeInfo  Rewriter  AstPrinter  Parser  HOptimizedGraphBuilder  VariableProxy  
+VariableDeclaration   ->   AstPrinter  PrettyPrinter  HOptimizedGraphBuilder  
+VariableMap   ->   Scope  
+VariableProxy   ->   Scope  Rewriter  AstPrinter  PrettyPrinter  Parser  HOptimizedGraphBuilder  BreakableStatementChecker  
+VirtualMemory   ->   StoreBuffer  MemoryAllocator  IncrementalMarking  
+WhileStatement   ->   AstTyper  AstPrinter  PrettyPrinter  Parser  HOptimizedGraphBuilder  BreakableStatementChecker  FullCodeGenerator  
+WithStatement   ->   AstTyper  Processor  AstPrinter  PrettyPrinter  BreakableStatementChecker  FullCodeGenerator  
+Yield   ->   AstTyper  AstPrinter  PrettyPrinter  BreakableStatementChecker  
+Zone   ->   Scope  RegExpMacroAssemblerIrregexp  HStringAdd  HValueMap  

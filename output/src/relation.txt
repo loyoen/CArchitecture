@@ -1,0 +1,111 @@
+AboutDialog   ->   BitcoinGUI  
+AddressBookPage   ->   WalletView  SignVerifyMessageDialog  SendCoinsEntry  
+AddressTableModel   ->   WalletModel  TransactionView  EditAddressDialog  AddressBookPage  
+Arena   ->   MemTable  
+AskPassphraseDialog   ->   WalletView  
+AtomicPointer   ->   DBImpl  
+BitcoinGUI   ->   WalletView  
+Block   ->   Table  
+BlockBuilder   ->   TableBuilder  
+BlockHandle   ->   TableBuilder  Table  
+CAddrDB   ->   AppInit2  
+CAddrInfo   ->   CAddrMan  
+CAddress   ->   OptionsModel  CNode  
+CAutoFile   ->   CAddrDB  
+CBitcoinAddress   ->   WalletModel  SignVerifyMessageDialog  SendCoinsDialog  AddressTableModel  
+CBlock   ->   CWallet  CMerkleTx  
+CBlockIndex   ->   CWallet  CBlockTreeDB  CCoinsViewDB  TransactionRecord  ClientModel  CBlock  CBlockHeader  CMerkleTx  AppInit2  
+CBlockLocator   ->   AppInit2  
+CBlockTreeDB   ->   CBlock  ThreadImport  
+CBlockUndo   ->   CBlock  
+CClientUIInterface   ->   CWallet  WalletModel  ClientModel  CBlock  std  AppInit2  CAlert  
+CCoins   ->   CWallet  CCoinsViewDB  TransactionDesc  CBlock  CMerkleTx  std  
+CCoinsViewCache   ->   CWallet  TransactionDesc  CMerkleTx  CTxMemPool  CWalletTx  
+CCrypter   ->   CWallet  std  
+CDBEnv   ->   AppInit2  CDB  
+CDataStream   ->   CBlockTreeDB  SignVerifyMessageDialog  CNetMessage  CAddrDB  CDB  CBloomFilter  CAddrInfo  
+CDiskBlockIndex   ->   CBlockTreeDB  
+CHashWriter   ->   CCoinsViewDB  
+CKey   ->   CWallet  std  CScriptCompressor  CCryptoKeyStore  CKeyStore  CAlert  
+CKeyPool   ->   CReserveKey  CWallet  
+CKeyStore   ->   boost  
+CLevelDB   ->   CCoinsViewDB  
+CLevelDBBatch   ->   CBlockTreeDB  CLevelDB  
+CMasterKey   ->   CWallet  
+CMerkleTx   ->   CWalletTx  
+CMessageHeader   ->   CNetMessage  
+CNetAddr   ->   std  
+CNode   ->   CopyNodeStats  FindNode  CBlock  CAlert  
+COutPoint   ->   TransactionDesc  
+COutput   ->   CWallet  
+CPubKey   ->   CReserveKey  CWallet  CScriptCompressor  boost  AddressTableModel  CCryptoKeyStore  
+CRPCCommand   ->   CRPCTable  json_spirit  
+CRPCTable   ->   RPCExecutor  
+CSVModelWriter   ->   TransactionView  AddressBookPage  
+CScript   ->   CWallet  boost  WalletModel  CBlock  
+CService   ->   OptionsModel  std  AppInit2  
+CTransaction   ->   CTxMemPool  
+CTxIn   ->   CWallet  CTxMemPool  
+CTxMemPool   ->   CCoinsViewMemPool  CWalletTx  
+CTxOut   ->   CWallet  
+CWallet   ->   CWalletDB  CReserveKey  CWalletTx  boost  WalletModel  TransactionRecord  TransactionDesc  SignVerifyMessageDialog  AddressTableModel  AppInit2  json_spirit  
+CWalletDB   ->   CWallet  OptionsModel  AppInit2  
+CWalletTx   ->   CWalletDB  CWallet  std  WalletModel  
+Cache   ->   Table  TableCache  
+ClientModel   ->   WalletView  RPCConsole  OverviewPage  BitcoinGUI  AboutDialog  
+Compaction   ->   VersionSet  DBImpl  
+Comparator   ->   Compaction  Version  InternalKeyComparator  
+CondVar   ->   DBImpl  
+DBImpl   ->   DB  
+EditAddressDialog   ->   TransactionView  AddressBookPage  
+Env   ->   std  
+FilterBlockReader   ->   Table  
+FilterPolicy   ->   FilterBlockBuilder  
+Footer   ->   Table  
+InternalKey   ->   Version  VersionSet  DBImpl  
+InternalKeyComparator   ->   Compaction  VersionSet  
+Iterator   ->   CBlockTreeDB  CCoinsViewDB  Table  std  TableCache  MemTable  DBImpl  
+IteratorWrapper   ->   MergingIterator  
+MacDockIconHandler   ->   BitcoinGUI  
+MemTable   ->   std  WriteBatch  DBImpl  
+MonitoredDataMapper   ->   OptionsDialog  
+Mutex   ->   CondVar  VersionSet  
+Notificator   ->   BitcoinGUI  
+OptionsDialog   ->   BitcoinGUI  
+OptionsModel   ->   QRCodeDialog  OptionsDialog  
+OverviewPage   ->   WalletView  
+QRCodeDialog   ->   AddressBookPage  
+QValidatedLineEdit   ->   OptionsDialog  
+RPCConsole   ->   BitcoinGUI  
+Random   ->   std  
+RandomAccessFile   ->   Table  
+Reader   ->   VersionSet  std  
+SendCoinsDialog   ->   WalletView  
+SendCoinsEntry   ->     SendCoinsDialog  
+SendCoinsRecipient   ->   URITests  SendCoinsEntry  SendCoinsDialog  Qt  
+SequentialFile   ->   std  
+SignVerifyMessageDialog   ->   WalletView  
+Slice   ->   CBlockTreeDB  CCoinsViewDB  std  TwoLevelIterator  TableBuilder  Footer  FilterBlockBuilder  BlockBuilder  Block  WriteBatch  Version  VersionEdit  MemTable  Reader  DBIter  DBImpl  AppendWithSpace  InternalKeyComparator  
+SnapshotList   ->   DBImpl  
+SplashScreen   ->   std  
+Status   ->   CLevelDB  std  Win32MapFile  TableBuilder  Table  Footer  Version  VersionSet  TableCache  Writer  Reader  DB  DBImpl  
+Table   ->   VersionSet  TableCache  MemTable  std  
+TableBuilder   ->   std  
+TableCache   ->   std  
+TransactionDescDialog   ->   TransactionView  
+TransactionFilterProxy   ->   TransactionView  OverviewPage  
+TransactionRecord   ->   TransactionTableModel  
+TransactionTableModel   ->   WalletView  WalletModel  
+TransactionView   ->   WalletView  
+Version   ->   Compaction  VersionSet  DBImpl  
+VersionEdit   ->   Compaction  VersionSet  DB  DBImpl  
+VersionSet   ->   Version  DBImpl  
+WalletFrame   ->   BitcoinGUI  
+WalletModel   ->   WalletView  TransactionView  TransactionTableModel  SignVerifyMessageDialog  SendCoinsEntry  SendCoinsDialog  OverviewPage  AskPassphraseDialog  AddressTableModel  
+WalletStack   ->   WalletFrame  
+WalletView   ->   WalletStack  
+WritableFile   ->   VersionSet  Writer  DBImpl  std  
+WriteBatch   ->   DB  DBImpl  
+Writer   ->   VersionSet  DBImpl  
+key   ->   AskPassphraseDialog  std  Version  
+uint256   ->   CWalletTx  TransactionTableModel  ClientModel  CBlock  CTxMemPool  AppInit2  

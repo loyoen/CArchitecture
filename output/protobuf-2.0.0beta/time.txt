@@ -1,0 +1,6 @@
+testcase name : ..//testcases//protobuf-2.0.0beta
+read path time : 187ms
+readfile time : 3370ms
+parsing time : 1825ms
+modeling and cuting time : 110ms
+writing time : 15ms

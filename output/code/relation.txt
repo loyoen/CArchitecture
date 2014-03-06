@@ -1,0 +1,217 @@
+CAMatch   ->   CRoutes  
+CAboutUi   ->   CContextContactsAppUi  
+CActiveState   ->   CContextContactsAppUi  
+CAknPopupFieldText   ->   CWebForm  CNickForm  
+CAppLogView   ->   CContextLogAppUiBase  
+CAudioEngine   ->   CContextMediaAppPostContainer  
+CAuthorFeedView   ->   CContextContactsAppUi  
+CAutoTagArray   ->   CContextMediaAppPostContainer  
+CAutoTagListBox   ->   CContextMediaAppPostContainer  
+CBBBtDeviceList   ->   MPresenceMaintainer  CLocaSenderImpl  CLocaLogicImpl  CLogGpsImpl  CBBPresence  
+CBBConnectionState   ->   CConnectionIndicatorImpl  
+CBBErrorInfo   ->   CBBFeedItem  CBBConnectionState  CPostStorageImpl  CCMPost  CFeedItemStorageImpl  
+CBBFeedItem   ->   CFeedList  CFeedControl  CFeedItemStorageImpl  
+CBBFetchItemList   ->   CBBFetchPostRequest  
+CBBFetchMediaRequest   ->   CConvertingDownloaderImpl  
+CBBFetchPostRequest   ->   CFetchPostsImpl  
+CBBGeneralHolder   ->   CBBSensorEvent  CCMPost  CBBTuple  CBBErrorInfo  
+CBBLookup   ->   CContextServer  CLookupStorageImpl  
+CBBPresence   ->   CUploadView  MPresenceMaintainer  CHttpTransfer2Impl  CPresenceInfo  CContextMediaAppPostContainer  CPresenceTextFormatter  CPresenceDescriptionContainer  phonebook  contact  CPresenceHolder  
+CBBRecovery   ->   CContextServer  
+CBBSensorEvent   ->   MPresenceMaintainer  CLocaRemoteEvents  CContextServer  CLog_local  CDiscoverImpl  bases  CFeedItemStorageImpl  CLogUnreadImpl  
+CBBString   ->   CLocaLogicImpl  CBBStreamData  CBBStreamComment  TBBServerMessage  CBBFeedItem  CBBChannelPost  CLog_sms  CBBErrorInfo  
+CBBString8   ->   CBBUserPic  CBBFeedItem  CBBFetchMediaRequest  
+CBBSubSession   ->   CContextLogAppUiBase  CPresenceInfo  CContextServer  CUserPics  
+CBBTuple   ->   CLookupHandlerImpl  CContextServer  CBBListenerImpl  CBBLocalListenerImpl  
+CBTDevApView   ->   CContextContactsAppUi  
+CBTDeviceList   ->   MPresenceMaintainer  
+CBlackBoardServerSession   ->   CBlackBoardServer  
+CBubbleContainer   ->   CBubbledStreamItem  
+CCMPost   ->   CTransferDirImpl  CHttpTransfer2Impl  CContextMediaArrayImpl  CContextMediaBoxDrawer  CContextMediaEditorView  CContextMediaAppThreadView  CContextMediaAppListboxContainer  CContextMediaAppPostContainer  TCMOldPrompt  CContextMediaAppAppUi  CPostStorageImpl  CFetchPostsImpl  CCMNetworkImpl  
+CCellMap   ->   bases  
+CCircularLog   ->   CUserContextContainer  CContextLogAppUiBase  CAppLogView  CLogContainer  
+CCommDbDump   ->   CDbtestAppUi  CContextLocaAppUi  
+CCommentsView   ->   CContextContactsAppUi  
+CConnectivityListener   ->   CConnectionOpener  
+CContextCallLogView   ->   CContextCallLogAppUi  
+CContextContactsDetailView   ->   CContextContactsAppUi  
+CContextContactsView   ->   CContextContactsAppUi  
+CContextMediaAppGeneralContainer   ->   CContextMediaAppThreadView  
+CContextMediaAppPostContainer   ->   CContextMediaEditorView  CContextMediaAppThreadView  
+CContextMediaAppThreadView   ->   CContextMediaAppAppUi  
+CContextMediaArray   ->   CContextMediaAppListboxContainer  
+CContextMediaBox   ->   CContextMediaAppListboxContainer  
+CContextMediaEditorView   ->   CContextMediaAppAppUi  
+CContextMenuArray   ->   CContextMenuAppUi  
+CContextMenuView2   ->   CContextMenuAppUi  
+CContextNoteContainer   ->   CContextNoteAppUi  
+CContextNotifySession   ->   CContextNotify  
+CContextServerSession   ->   CContextServer  
+CContextbookView   ->   CContextbookAppUi  
+CCurrentLoc   ->   CleanupStack  
+CDb   ->   CWebForm  CBaseStackImpl  CSettings  
+CDbtestContainer   ->   CDbtestAppUi  
+CDebugAppScheduler   ->   MContextDocument  
+CDirectedGraph   ->   bases  
+CDiscover   ->   CUploadView  
+CDorisBrowserInterface   ->     CContextFetchAppUi  
+CDrawer   ->   CContextNotify  
+CDummyProjDialog   ->   CDummyProjAppUi  
+CDynamicSettingsView   ->   CContextContactsAppUi  
+CErrorInfoView   ->   CContextContactsAppUi  
+CErrorLogger   ->   CContextLocaAppUi  
+CEverybodysFeedView   ->   CContextContactsAppUi  
+CExpect   ->   CProtoSocket  
+CFeedControl   ->   CFeedList  
+CFeedEngine   ->   CContextContactsAppUi  
+CFeedGroupView   ->   CContextContactsAppUi  
+CFeedItemStorage   ->   CTest_Storage  
+CFocusHandling   ->   CGeneralFeedControl  
+CFocusableBuddy   ->   CBubbledStreamItem  
+CForeground   ->   CContextNotify  
+CGenericIntMap   ->   CJaikuCacher  bases  CSettings  CPresenceHolder  CBlackBoardServer  
+CGenericStringMap   ->   CPresenceInfo  
+CHintBox   ->   CContextMediaAppPostContainer  
+CHttpTransfer2   ->   CContextMediaAppThreadView  
+CIndependentWatcher   ->   CContextLogAppUiBase  
+CJabber   ->   CContextServer  
+CJabberData   ->   CContextContactsContainer  CContextContactsAppUi  CMessaging  
+CJaikuCacherSession   ->   CJaikuCacher  
+CJaikuCommonMenus   ->   CContextContactsAppUi  
+CJaikuContactsListBox   ->   CUserContextContainer  
+CJaikuContactsListController   ->   CContextContactsContainer  
+CJaikuViewBase   ->   CContextContactsAppUi  
+CJuikGenListBox   ->   CJaikuContactsListController  CContextContactsContainer  
+CJuikGfxStore   ->   CContextContactsAppUi  
+CJuikImage   ->   CBubbledStreamItem  
+CJuikLabel   ->   CBubbledStreamItem  CProgressBarModel  
+CJuikLayout   ->   CContextWelcomeAppUi  CContextContactsAppUi  
+CJuikSizerContainer   ->   CJuikContainerBase  CGeneralFeedControl  
+CLocalNotifyWindow   ->   CRecognizerContainer  CNotifyWindowControl  
+CLogContainer   ->   CAppLogView  
+CLookupHandler   ->   CContextServer  
+CMediaRunner   ->   CContextLogAppUiBase  
+CMessageHolder   ->   CContextServer  
+CNickForm   ->   CContextContactsAppUi  CContextbookView  
+CNotifyWindowControl   ->   CContextMediaAppPostContainer  
+COperatorMap   ->   CCellMap  bases  
+CPermanentSubscriptions   ->   CBlackBoardServer  
+CPicturePublisher   ->   CMediaRunnerImpl  
+CPopupNotifier   ->   CContextMediaAppAppUi  
+CPostPart   ->   CHttpImpl  
+CPosterUi   ->   CContextContactsAppUi  
+CPresenceData   ->   CPresenceHolder  
+CPresenceDescriptionView   ->   CContextContactsAppUi  
+CPresenceDetailView   ->   CContextContactsAppUi  CContextCallLogAppUi  CContextbookAppUi  
+CPresenceHolder   ->   CContextContactsAppUi  CContextCallLogAppUi  CContextbookAppUi  
+CPresenceInfo   ->   CContextServer  
+CPresencePublisher   ->   RDebug  
+CPresenceUpdater   ->   CContextContactsAppUi  CContextbookAppUi  
+CReclaimManager   ->   CMapFactory  CSequenceIdMap  
+CRichPresenceView   ->   CContextContactsAppUi  
+CSavedPoints   ->   CWebForm  
+CSendUITransfer   ->   CContextLocaAppUi  
+CSensorRunner   ->   CContextLogAppUiBase  
+CSettingsUi   ->   CContextContactsAppUi  
+CSettingsView   ->   CContextMediaAppAppUi  CContextContactsAppUi  
+CSocketsEngine   ->   CJabber  
+CSplashScreen   ->   CContextFlickrDocument  
+CStack   ->   CDummyProjAppUi  
+CStatusView   ->   CContextLogAppUiBase  
+CStreamXml   ->   MBBStream  
+CSubscriptions   ->   CBlackBoardServer  
+CSymbianOSUnitAppView   ->   CSymbianOSUnitAppUi  
+CTagStorage   ->   CContextMediaAppPostContainer  
+CTaskListContainer   ->   CTaskListAppUi  
+CThemeColors   ->   CContextContactsAppUi  
+CTimeOut   ->   CJaikuCacher  CPeriodicTransfer  CTransferBase  MPresenceMaintainer  CSocketBase  CContextLogAppUiBase  CContextServer  Clocationing  bases  sms  CJabber  CContextMediaAppListboxContainer  CContextMediaAppPostContainer  CPresenceUpdater  MContextAppUi  CConnectionOpener  CPresenceHolder  
+CTimePeriodFormatter   ->   CPresenceTextFormatter  
+CTransferDir   ->   CPeriodicTransfer  CContextMediaAppAppUi  
+CTupleStore   ->   CBlackBoardServer  
+CUserContextContainer   ->   CUserView  
+CVideoEngine   ->   CContextMediaAppPostContainer  
+CViewNavigation   ->   CContextContactsAppUi  
+CWelcomeController   ->   CContextWelcomeAppUi  
+CWelcomePageBase   ->   CWelcomeViewBase  
+CXmlBuf16   ->   CJabber  
+CXmlBufExternalizer   ->   CJabber  
+CXmlParser   ->   CJabber  CPresenceData  TCheckingXml  TIgnoreXml  
+GainAnalysis   ->   Clog_soundlevel  
+MActiveErrorReporter   ->   CContextLogAppUiBase  CAppLogView  CSettingsView  CContextMediaEditorView  CContextMediaAppThreadView  CPresenceDetailViewImpl  CPresenceDescriptionViewImpl  CJaikuViewBase  CContextContactsAppUi  CDebugAppScheduler  CDebugBaScheduler  
+MBBData   ->   CSmsStatusReplierImpl  CBBDumperImpl  CContext_logContainer  CContextLogAppUiBase  CHttpTransfer2Impl  CLookupHandlerImpl  CContextServer  CBBUserPic  TBBUserGiven  TBBUnread  TBBThreadRequest  TBBSysEvent  CBBStreamData  CBBStreamComment  TBBServerMessage  TBBSentInvite  CBBSensorEvent  TBBProfile  CBBPresence  CBBLookup  TBBLocaMsgStatus  TBBUserActive  CBBFeedItem  TBBCurrentApp  CBBConnectionState  CBBChannelPost  TBBCellNaming  TBBCellId  TBBCalendar  TBBCalendarEvent  TBBBuildInfo  CBBBtDeviceList  TBBBtDeviceInfo  TBBNeighbourhoodInfo  TBBBattery  TBBBaseInfo  TBBBaseVisit  TBBLocation  CJabber  CContextMediaAppAppUi  CCMPost  TCMSender  CBBFetchItemList  CBBFetchMediaRequest  CBBFetchPostRequest  TBBFetchItem  Cfile_logger  CBBListenerImpl  CBBLocalListenerImpl  CBBSessionImpl  TBBPair  TBBUUID  TBBTupleMeta  CBBTuple  TBBMD5Hash  TBBCompoundData  TBBFixedLengthStringBase  TBBTupleName  TBBAck  CPartContainerXml  CBBGenericList  TBBErrorCode  
+MBBDataFactory   ->   CBBSensorEvent  CCMPost  CBBTuple  CBBGenericList  CBBDataFactoryImpl  CBBGeneralHolder  
+MBBExternalizer   ->   CBBPresence  TBBCalendar  TBBPair  TBBBool  TBBCompoundData  TBBFixedLengthStringBase  TBBFixedLengthStringBase8  TBBInt  TBBInt64  TBBTime  TBBUid  TBBUint  CBBGenericList  
+MBlackBoardObserver   ->   CBlackBoardServer  CBBSessionImpl  
+MCallStack   ->   TCallStackItem  
+MCallerIdMngrObserver   ->   CCallerIdMngr  
+MCellMap   ->   CRoutes  
+MErrorInfo   ->   CJaikuViewBase  CContextContactsAppUi  CBBErrorInfo  
+MFeedItemDeletionNotify   ->   CBBFeedItem  
+MGenericIntMap   ->   CSequenceIdMap  
+MJuikControl   ->   CSoftScrollList  
+MJuikDataProvider   ->   CSubcellRenderer  
+MJuikSizer   ->   CBubbledStreamItem  
+MListObserver   ->   CCircularLog  
+MMapFactory   ->   routes_test  CRoutes  
+MNaming   ->   Clocationing  
+MNestedXmlHandler   ->   TBBCalendar  
+MNetworkConnection   ->   Clocationing  
+MPageObserver   ->   CWelcomePageBase  
+MPostDeletionNotify   ->   CCMPost  
+MPostNotify   ->   CPostStorageImpl  
+MPresenceData   ->   contact  
+MPresenceListener   ->   CPresenceHolder  
+MReclaimable   ->   CReclaimManager  
+MSequenceIdMap   ->   CRoutes  
+MSequenceMap   ->   CRoutes  
+MSocketObserver   ->   CPeriodicTransfer  
+MStaticIconProvider   ->   CIconDataProvider  
+MUploadCallBack   ->   CUploadViewImpl  CMultiPromptImpl  TDummyPrompt  TNoUploadPrompt  CVisualCodePromptImpl  CContextMediaEditorView  CContextMediaAppThreadView  TCMOldPrompt  CContextMediaAppAppUi  TOldPrompt  
+MUploadPrompt   ->   CContextMediaAppThreadView  
+MXmlHandler   ->   CXmlParser  
+Mlogger   ->   Mlog_base_impl  
+RAApaLsSession   ->   CContextLogAppUiBase  CContextMediaEditorView  CContextMediaAppThreadView  CApp_contextImpl  
+RADbColReadStream   ->   CHttpTransfer2Impl  CPostStorageImpl  CConvertingDownloaderImpl  CFeedItemStorageImpl  
+RADbColWriteStream   ->   CHttpTransfer2Impl  CPostStorageImpl  CConvertingDownloaderImpl  CJabberPics  CFeedItemStorageImpl  CLookupStorageImpl  CTupleStoreImpl  
+RAFile   ->   CTest_UserPics  CTest_BufferIcon  CJaikuCacher  CTransferBase  CContextLogAppUiBase  CShortcutReplacer  CErrorInfoViewImpl  CHttpTransfer2Impl  COperatorMapImpl  CMMSImpl  phonebook  CContextContactsAppUi  CApp_contextImpl  CPermanentSubscriptionsImpl  CInsertsImpl  
+RAFileReadStream   ->   CJaikuCacher  
+RAFileWriteStream   ->   CShortcutReplacer  
+RContextClientSession   ->   CPresenceHolder  
+RJaikuCacher   ->   CTest_ContactsCache  CUTContactEngine  
+RSharedDataClient   ->   CAutoAccessPoint  
+SHA1   ->   CJabber  
+TBBAck   ->   CBBProtocolImpl  CBBLocalProtocolImpl  
+TBBBaseInfo   ->   MPresenceMaintainer  CBBPresence  
+TBBBaseVisit   ->   TBBBaseInfo  
+TBBBool   ->   CBBPresence  
+TBBBtDeviceInfo   ->   MPresenceMaintainer  CLocaLogicImpl  CBTDeviceListImpl  CLogGpsImpl  CBBBtDeviceList  
+TBBBuildInfo   ->   CTest_BuildInfo  CContextContactsAppUi  
+TBBCalendar   ->   CLogCalendarImpl  CBBPresence  
+TBBCalendarEvent   ->   CPresenceDetailContainer  
+TBBCellId   ->   Clocationing  CBBPresence  bases  
+TBBCurrentApp   ->   MPresenceMaintainer  CContextServer  CLogGpsImpl  CFeedItemStorageImpl  
+TBBFetchItem   ->   CBBFetchItemList  
+TBBFixedLengthStringBase   ->   MPresenceMaintainer  
+TBBInt   ->   CBBPresence  
+TBBLocaMsgStatus   ->   CLocaRemoteEvents  
+TBBLocation   ->   bases  
+TBBLongString   ->   MPresenceMaintainer  CBBPresence  CBBSessionImpl  
+TBBNeighbourhoodInfo   ->   CBBPresence  
+TBBProfile   ->   CBBPresence  
+TBBSeverity   ->   TBBErrorType  
+TBBShortString   ->   CBBPresence  
+TBBSysEvent   ->   CPeriodicTransfer  
+TBBTime   ->   CSmsStatusReplierImpl  Clog_comm  CBBPresence  CJabber  CBBTuple  
+TBBUnread   ->   CBBPresence  
+TBBUserActive   ->   MPresenceMaintainer  CContextServer  CBBPresence  CFeedItemStorageImpl  
+TBBUserGiven   ->   MPresenceMaintainer  CContextServer  CBBPresence  
+TDummyPrompt   ->   CPeriodicTransfer  
+TIgnoreXml   ->   TCheckingXml  
+TJuikLayoutItem   ->   CTest_LayoutData  CSubcellRenderer  CBubbledStreamItem  CWelcomePageBase  CWelcomeSelectionPage  CDrawerImpl  CContextMediaBox  CContextMediaAppPostContainer  CContextContactsContainer  
+TUiDelegates   ->   CJaikuViewBase  
+WaveFile   ->   Mrecorder  
+contact   ->   CTest_ActiveContact  CPresenceArrayImpl  phonebook  CJaikuContactsArray  drawer  CNameArrayImpl  MContactViewBase  CContactListBoxArray  CContextContactsView  CContextContactsContainer  CContextContactsAppUi  CSoftScrollList  CMessaging  CContextCallLogView  CContextCallLogContainer  call_log  CContextbookContainer  
+doublelinebox   ->   drawer  CContextCallLogContainer  
+phonebook   ->   CContextContactsContainer  CContextContactsAppUi  CMessaging  CContextbookAppUi  
+phonehelper   ->   CContextMediaAppAppUi  CContextbookContainer  
+sms   ->   CContextLogAppUiBase  Clocationing  

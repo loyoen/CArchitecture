@@ -1,0 +1,6 @@
+testcase name : ..//testcases//testcasemine
+read path time : 0ms
+readfile time : 16ms
+parsing time : 125ms
+modeling and cuting time : 16ms
+writing time : 0ms

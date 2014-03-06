@@ -1,0 +1,11 @@
+Jan 23 14:31:49  4456  now class name: ..//testcases//hTest_1 2 10 10 1 1 1 0 0
+Jan 23 14:32:12  8004  cppname::..//testcases//hTest_1//cC.cpp
+Jan 23 14:33:02  8004  cppname::..//testcases//hTest_1//cB.cpp
+Jan 23 14:33:02  8004  cppname::..//testcases//hTest_1//cA.cpp
+Jan 23 14:33:02  8004  cppname::..//testcases//hTest_1//cC.cpp
+Jan 23 14:33:02  8004  Find Type---valuename:objB---endpos:131
+Jan 23 14:33:02  8004  Find Type---valuename:objA---endpos:154
+Jan 23 14:33:02  8004  cppname::..//testcases//hTest_1//cB.cpp
+Jan 23 14:33:02  8004  Find Type---valuename:objC---endpos:33
+Jan 23 14:33:02  8004  cppname::..//testcases//hTest_1//cA.cpp
+Jan 23 14:33:02  8004  Find Type---valuename:objC---endpos:33

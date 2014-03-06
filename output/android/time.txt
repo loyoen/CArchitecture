@@ -1,0 +1,6 @@
+testcase name : ..//testcases//android
+read path time : 3759ms
+readfile time : 5320ms
+parsing time : 53493ms
+modeling and cuting time : 31ms
+writing time : 31ms

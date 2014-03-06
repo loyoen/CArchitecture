@@ -1,0 +1,14 @@
+CClassContent   ->   CReadH  
+CHeapSort   ->   CMultilevel  
+CHypergraph   ->   CTestCaseCpp  CMultilevel  CMygraph  
+CLock   ->   CMgrJob  CLog  
+CLogWrite   ->   CLog  
+CMethodBody   ->   CTestCaseCpp  CReadCpp  
+CMgrJob   ->   CArchitectureApp  
+CMultilevel   ->   CTestCaseCpp  
+CMygraph   ->   CMultilevel  
+CReadCpp   ->   CTestCaseCpp  
+CReadH   ->   CTestCaseCpp  
+CTestCase   ->   CMgrJob  CArchitectureApp  
+CThread   ->   CArchitectureApp  
+calledclass   ->   CTestCaseCpp  

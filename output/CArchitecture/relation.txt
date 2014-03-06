@@ -1,0 +1,10 @@
+cA   ->   cB  
+cB   ->   cC  
+cC   ->   cA  
+cD   ->   cE  
+cE   ->   cF  
+cF   ->   cD  
+cG   ->   cD  cB  
+classA   ->   classD  classB  
+classB   ->   classD  classC  
+classC   ->   classA  

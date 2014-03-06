@@ -1,0 +1,5 @@
+CAttribute   ->   CClass  
+CClass   ->   CSimplex  CVertex  
+CEdge   ->   CHypergraph  
+CMethod   ->   CClass  
+CVertex   ->   CEdge  CHypergraph  

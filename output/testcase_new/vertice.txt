@@ -1,0 +1,12 @@
+1  CAttribute
+2  CClass
+3  CSimplex
+4  CHypergraph
+5  CVertex
+6  CEdge
+7  CMethod
+8  classA
+9  classD
+10  classB
+11  cA
+12  classC

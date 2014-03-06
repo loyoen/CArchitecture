@@ -1,0 +1,8 @@
+CClass  called  CAttribute
+CClass  called  CMethod
+CSimplex  called  CClass
+CEdge  called  CVertex
+CEdge  called  CVertex
+CHypergraph  called  CVertex
+CHypergraph  called  CEdge
+CVertex  called  CClass

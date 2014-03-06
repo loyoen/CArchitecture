@@ -1,0 +1,15 @@
+DescriptorProto   ->   Descriptor  FileDescriptor  Parser  
+Environment   ->   UnitTestImpl  
+File   ->   DiskSourceTree  
+FileGenerator   ->   JavaGenerator  CppGenerator  
+FilePath   ->   UnitTestOptions  XmlUnitTestResultPrinter  
+Message   ->   Test  UnitTest  internal  ForkingDeathTest  TextFormat  GeneratedMessageReflection  MessageGenerator  
+String   ->   PrettyUnitTestResultPrinter  UnitTestImpl  XmlUnitTestResultPrinter  FilePath  DeathTest  
+Test   ->   PrettyUnitTestResultPrinter  testing  
+TestCase   ->   PrettyUnitTestResultPrinter  UnitTestImpl  XmlUnitTestResultPrinter  
+TestInfo   ->   PrettyUnitTestResultPrinter  TestCase  XmlUnitTestResultPrinter  
+TestInfoImpl   ->   UnitTestImpl  
+TestPartResult   ->   PrettyUnitTestResultPrinter  
+TestResult   ->   internal  
+UnitTest   ->   OsStackTraceGetter  PrettyUnitTestResultPrinter  UnitTestImpl  XmlUnitTestResultPrinter  
+test   ->   Test  TestInfoImpl  UnitTestImpl  ForkingDeathTest  
